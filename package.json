@@ -2,7 +2,7 @@
   "name": "workshop_site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nafisirtija.github.io/REFRESH/.",
+  "homepage": "https://refresh2021.github.io/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
@@ -18,7 +18,8 @@
     "react-dom": "^16.14.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "start": "react-scripts start",

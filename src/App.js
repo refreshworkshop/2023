@@ -3,7 +3,7 @@ import './App.css';
 import Navibar  from './Components/Navibar'
 import Jumbotron from './Components/Jumbotron'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from 'react-router-dom'

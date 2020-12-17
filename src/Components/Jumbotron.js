@@ -36,7 +36,11 @@ const Jumbotron = () => (
       <div className="overlay"></div>
       <Container>
         <h1> REFRESH 2021 </h1>
-        <p>2nd International Workshop on Real-life modeling in 5G networks and beyond</p>
+        <p>2nd International Workshop on Real-life modeling in 5G networks and beyond <br/>
+          Coral Bay, Pafos, Cyprus <br/>
+          June  7 – 9, 2021</p>
+
+          <h5>co-located with <a href="https://dcoss.org/">DCOSS 2020</a></h5>
       </Container>
     </Jumbo>
   </Styles>

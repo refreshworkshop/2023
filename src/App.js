@@ -8,9 +8,9 @@ import {
   Route
 } from 'react-router-dom'
 import Home from './Views/Home.js'
-import Contact from './Views/Contact'
-import Scope from './Views/Scope'
-import Topics from './Views/Topics';
+// import Contact from './Views/Contact'
+// import Scope from './Views/Scope'
+// import Topics from './Views/Topics';
 import Program from './Views/Program';
 import Dates from './Views/Dates';
 import Committee from './Views/Committee';
@@ -31,18 +31,18 @@ function App() {
               <Home />
             </Route>
 
-            <Route path='/scope' >
+            {/* <Route path='/scope' >
               <Scope />
-            </Route>
+            </Route> */}
 
 
             <Route path='/submissions' >
               <Submissions />
             </Route>
 
-            <Route path='/topics' >
+            {/* <Route path='/topics' >
               <Topics />
-            </Route>
+            </Route> */}
 
             <Route path='/dates' >
               <Dates />
@@ -56,9 +56,9 @@ function App() {
               <Program />
             </Route>
 
-            <Route path='/contact' >
+            {/* <Route path='/contact' >
               <Contact/>
-            </Route>
+            </Route> */}
 
           </Switch>
         </div>

@@ -10,7 +10,7 @@ function Committee() {
 
 <br />
 <b>Workshop Web Chairs </b> <br />
-<a href="https://nafisirtija.github.io"> Nafir Irtija</a> (University of New Mexico, USA) <br />
+<a href="https://nafisirtija.github.io"> Nafis Irtija</a> (University of New Mexico, USA) <br />
 <a href="https://sangoleyefisayo.github.io"> Fisayo Sangoleye</a> (University of New Mexico, USA) <br />
 
 <br />

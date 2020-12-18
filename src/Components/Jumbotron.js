@@ -3,6 +3,18 @@ import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import boatImage from '../Assets/paphos.jpg';
 
+const Title = styled.h1`
+font-size: 5em;
+text-align: center;
+color: white;
+    `;
+const Subtitle = styled.p`
+font-size: 2em;
+text-align: center;
+color:  white;
+  
+`;
+
 const Styles = styled.div`
   .jumbo {
     background: url(${boatImage}) no-repeat fixed bottom;
@@ -23,9 +35,7 @@ const Styles = styled.div`
     z-index: -1;
   }
 
-  .overlay h1,p {
-    font-size:x-large;
-  }
+  
 
   
 `;
@@ -35,12 +45,8 @@ const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container>
-        <h1> REFRESH 2021 </h1>
-        <p>2nd International Workshop on Real-life modeling in 5G networks and beyond <br/>
-          Coral Bay, Pafos, Cyprus <br/>
-          June  7 – 9, 2021</p>
-
-          <h5>co-located with <a target="_blank" href="https://dcoss.org/">DCOSS 2020</a></h5>
+        <Title> REFRESH 2021 </Title>
+        <Subtitle>2nd International Workshop on Real-life modeling in 5G networks and beyond </Subtitle> 
       </Container>
     </Jumbo>
   </Styles>

@@ -1,9 +1,16 @@
 import React from 'react';
+import styled from 'styled-components';
 
+
+
+const Title = styled.h1`
+    color: #2291e6;
+  
+`;
 function Committee() {
     return (
 <div>
-<h1>Commitees</h1><br />
+<Title>Commitees</Title><br />
 <b>Program Committee Chairs </b><br />
 <a href="http://ece-research.unm.edu/tsiropoulou/Students.html">Eirini Eleni Tsiropoulou</a> (University of New Mexico, USA) <br />
 <a href="https://www.ece.ntua.gr/en/staff/76">Symeon Papavassiliou </a>(National Technical University of Athens, Greece)<br />

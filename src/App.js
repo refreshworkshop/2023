@@ -12,7 +12,7 @@ import Home from './Views/Home.js'
 // import Scope from './Views/Scope'
 // import Topics from './Views/Topics';
 import Program from './Views/Program';
-import Dates from './Views/Dates';
+// import Dates from './Views/Dates';
 import Committee from './Views/Committee';
 import Submissions from './Views/Submissions';
 
@@ -44,9 +44,9 @@ function App() {
               <Topics />
             </Route> */}
 
-            <Route path='/dates' >
+            {/* <Route path='/dates' >
               <Dates />
-            </Route>
+            </Route> */}
 
             <Route path='/committees' >
               <Committee />

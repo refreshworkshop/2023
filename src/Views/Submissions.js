@@ -1,12 +1,32 @@
 import React from 'react';
+import styled from 'styled-components';
+
+
+const Title = styled.h1`
+    color: #2291e6;
+  
+`;
+const Subtitle = styled.h3`
+    color: #2291e6;
+  
+`;
+
+const Grid = styled.div`
+* {
+    padding-left: 120px;
+    padding-right: 120px;
+    // text-align: left;
+}
+`;
+
 
 function Submissions() {
     return (
         <div >
-
-            <h1>Submissions</h1>
+            <Grid>
+            <Title>Submissions</Title>
             <p><br />
-                <b>Submission Guidelines </b> <br />
+                <Subtitle>Submission Guidelines </Subtitle> 
                 <br />
                 <b>General Paper Format </b> <br />
 Authors are invited to submit original unpublished manuscripts that demonstrate current research on real-life modeling in 5G networks and beyond related to REFRESH workshop’s topics of interest. Please use the US letter size (8.5 X 11 in) standard IEEE conference LaTeX format or Microsoft Word template available on the link below:<br />
@@ -20,12 +40,12 @@ Accepted and presented papers will be published in the DCOSS 2021 conference pro
 <br />
                 <br />
                 <b>Submission Site </b> <br />
-Please submit your papers in PDF format using the following paper submission website: <a href="url"><a href="https://easychair.org/conferences/?conf=refresh2020">https://easychair.org/conferences/?conf=refresh2020</a> </a>
+Please submit your papers in PDF format using the following paper submission website:<br /> <a href="url"><a href="https://easychair.org/conferences/?conf=refresh2021">https://easychair.org/conferences/?conf=refresh2021</a> </a>
                 <br />
                 <br />
                 <b>Camera Ready Guidelines </b> <br />
 TBA</p>
-
+</Grid>
         </div>
     );
 }

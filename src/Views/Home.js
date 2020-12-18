@@ -6,11 +6,44 @@ import styled from 'styled-components';
 // const A = styled.a`
 //   font-size:x-large;
 // `;
+const Title = styled.h4`
+    color: #2291e6;
+    `;
+const Subtitle = styled.h5`
+    color: #2291e6;
+  
+`;
 const Ul = styled.ul`
   list-style-type: none;
   //list-style-position: inside;
 `;
+const Grid = styled.div`
+* {
+  box-sizing: border-box;
+}
+.header {
+  padding: 10px;
+}
 
+.main {
+  width: 75%;
+  float: left;
+  padding-top: 30px;
+  padding-left: 120px;
+  padding-right: 80px;
+  text-align: justify;
+}
+
+.side {
+  width: 25%;
+  float: left;
+  padding-top: 30px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+  
+`;
 function Home() {
   return (
     <div >
@@ -18,12 +51,23 @@ function Home() {
       <A href="https://facebook.com/"> <FontAwesomeIcon icon={faFacebookSquare}/></A>
       <A href="https://reddit.com/"> <FontAwesomeIcon icon={faRedditSquare}/></A>
       <A href="https://linkedin.com/"> <FontAwesomeIcon icon={faLinkedin}/></A> */}
+      <Grid>
       <br />
       {/* <h1>Topics</h1>
       <br /> */}
-      <b> Call for Papers </b>
+      <div className="header">
 
-      <p> <b> Scope and Overview </b> <br /> The economic and societal potential of emerging 5G and cyber-physical social systems is vastly greater
+      <Title>Coral Bay, Pafos, Cyprus <br/>
+          June  7 – 9, 2021<br/></Title>
+      co-located with <a target="_blank" rel="noopener noreferrer" href="https://dcoss.org/">DCOSS 2020</a><br /><br />
+      <Subtitle> Call for Papers </Subtitle>
+      Few selected papers will be invited for the: <br /> Special Issue <i>“Emerging Trends in Wireless Sensor Networks”</i>, of <a target="_blank" rel="noopener noreferrer" href="https://www.mdpi.com/journal/sensors">The journal Sensors.</a>”
+      <br />
+      <br />
+      </div>
+      
+      <div className="main">
+      <Subtitle>Scope and Overview </Subtitle> <p>The economic and societal potential of emerging 5G and cyber-physical social systems is vastly greater
       than what has been realized so far, and major investments are being made worldwide to develop the corresponding
       science and technology. The Future Internet paradigm, the proliferation of emerging networks and architectures,
       wireless access technologies and multi-homing smart devices are evolving towards a competitive environment,
@@ -50,7 +94,7 @@ function Home() {
       </p>
       <br />
       <br />
-      <b> Topics of interest include, but are not limited to </b>
+      <Subtitle> Topics of interest include, but are not limited to </Subtitle>
       <Ul>
         <li>5G Cellular systems and beyond</li>
         <li>Cognitive radio networks, dynamic spectrum access and emerging applications and services</li>
@@ -85,7 +129,15 @@ function Home() {
         <li>Smart Cities supported by 5G networks and beyond</li>
         <li>Scalability, Robustness and Resilience in 5G networks and beyond</li>
       </Ul>
-      
+      </div>
+      <div className="side">
+      <Subtitle>Important Dates </Subtitle>
+            Submission: May 7, 2021<br />
+            Notification: May 30, 2021<br />
+            Camera Ready: June 10, 2021<br />
+            Early Registration: June 10, 2021<br /><br/>
+      </div>
+      </Grid>
     </div>
   );
 }

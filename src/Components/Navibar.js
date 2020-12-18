@@ -18,7 +18,7 @@ const Styles = styled.div`
 const Navibar = () => (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand >REFRESH 2021</Navbar.Brand>
+      <Navbar.Brand href="/">REFRESH 2021</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
@@ -42,11 +42,11 @@ const Navibar = () => (
               <Link to="/submissions">Submissions</Link>
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          {/* <Nav.Item>
             <Nav.Link>
               <Link to="/dates">Important Dates</Link>
             </Nav.Link>
-          </Nav.Item>
+          </Nav.Item> */}
           <Nav.Item>
             <Nav.Link>
               <Link to="/committees">Committees</Link>

@@ -27,7 +27,7 @@ const Navibar = () => (
               <Link to="/">Home</Link>
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          {/* <Nav.Item>
             <Nav.Link>
               <Link to="/scope">Scope</Link>
             </Nav.Link>
@@ -36,7 +36,7 @@ const Navibar = () => (
             <Nav.Link>
               <Link to="/topics">Topics</Link>
             </Nav.Link>
-          </Nav.Item>
+          </Nav.Item> */}
           <Nav.Item>
             <Nav.Link>
               <Link to="/submissions">Submissions</Link>
@@ -57,11 +57,11 @@ const Navibar = () => (
               <Link to="/program">Program</Link>
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          {/* <Nav.Item>
             <Nav.Link>
               <Link to="/contact">Contact</Link>
             </Nav.Link>
-          </Nav.Item>
+          </Nav.Item> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

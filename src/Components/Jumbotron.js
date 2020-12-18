@@ -40,7 +40,7 @@ const Jumbotron = () => (
           Coral Bay, Pafos, Cyprus <br/>
           June  7 – 9, 2021</p>
 
-          <h5>co-located with <a href="https://dcoss.org/">DCOSS 2020</a></h5>
+          <h5>co-located with <a target="_blank" href="https://dcoss.org/">DCOSS 2020</a></h5>
       </Container>
     </Jumbo>
   </Styles>

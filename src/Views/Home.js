@@ -1,10 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTwitterSquare,faFacebookSquare,faRedditSquare,faLinkedin } from '@fortawesome/free-brands-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faTwitterSquare,faFacebookSquare,faRedditSquare,faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-const A = styled.a`
-  font-size:x-large;
+// const A = styled.a`
+//   font-size:x-large;
+// `;
+const Ul = styled.ul`
+  list-style-type: none;
+  //list-style-position: inside;
 `;
 
 function Home() {
@@ -15,8 +19,8 @@ function Home() {
       <A href="https://reddit.com/"> <FontAwesomeIcon icon={faRedditSquare}/></A>
       <A href="https://linkedin.com/"> <FontAwesomeIcon icon={faLinkedin}/></A> */}
       <br />
-      <h1>Topics</h1>
-      <br />
+      {/* <h1>Topics</h1>
+      <br /> */}
       <b> Call for Papers </b>
 
       <p> <b> Scope and Overview </b> <br /> The economic and societal potential of emerging 5G and cyber-physical social systems is vastly greater

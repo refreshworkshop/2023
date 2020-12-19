@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navibar  from './Components/Navibar'
 import Jumbotron from './Components/Jumbotron'
+// import Footer from './Components/Footer'
 import {
   HashRouter as Router,
   Switch,
@@ -62,7 +63,9 @@ function App() {
 
           </Switch>
         </div>
+        {/* <Footer /> */}
       </Router>
+      
     </div>
   );
 }

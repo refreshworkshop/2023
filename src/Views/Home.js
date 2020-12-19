@@ -23,6 +23,28 @@ const Grid = styled.div`
 }
 .header {
   padding: 10px;
+  order: 1;
+}
+.main {
+  order: 3;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+
+}
+.side {
+  order: 2;
+  width: 100%;
+  padding-left: 80px;
+  text-align: left;
+}
+
+
+@media screen and (min-width: 768px) {
+
+.header {
+  padding: 10px;
 }
 
 .main {
@@ -41,7 +63,8 @@ const Grid = styled.div`
   text-align: left;
   padding-left: 50px;
 }
-
+}
+  
   
 `;
 function Home() {
@@ -61,8 +84,9 @@ function Home() {
           June  7 – 9, 2021<br/></Title>
       co-located with <a target="_blank" rel="noopener noreferrer" href="https://dcoss.org/">DCOSS 2020</a><br /><br />
       <Subtitle> Call for Papers </Subtitle>
-      Few selected papers will be invited for the: <br /> Special Issue <i>“Emerging Trends in Wireless Sensor Networks”</i>, of <a target="_blank" rel="noopener noreferrer" href="https://www.mdpi.com/journal/sensors">The journal Sensors.</a>”
+      Few selected papers will be invited for the: <br /> Special Issue <i>“Emerging Trends in Wireless Sensor Networks”</i>, of <a target="_blank" rel="noopener noreferrer" href="https://www.mdpi.com/journal/sensors">Sensors, MDPI.</a>”
       <br />
+      <b>Best Paper Award will be announced for the most innovative research paper.</b>
       <br />
       </div>
       
@@ -97,6 +121,8 @@ function Home() {
       <Subtitle> Topics of interest include, but are not limited to </Subtitle>
       <Ul>
         <li>5G Cellular systems and beyond</li>
+        <li>Reconfigurable Intelligent Surfaces</li>
+        <li>Integrated Access and Backhaul</li>
         <li>Cognitive radio networks, dynamic spectrum access and emerging applications and services</li>
         <li>Wireless power transfer and energy harvesting for wireless networks</li>
         <li>Delay tolerant networks</li>

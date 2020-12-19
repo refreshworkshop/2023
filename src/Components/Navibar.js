@@ -2,11 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { LinkContainer } from "react-router-bootstrap";
 
 const Styles = styled.div`
   .navbar {
     background-color: #222;
   }
+  
+}
   a, .navbar-brand, .navbar-nav .nav-link {
     color: #bbb;
     &:hover {
@@ -17,15 +22,16 @@ const Styles = styled.div`
 
 const Navibar = () => (
   <Styles>
-    <Navbar expand="lg">
+    <Navbar collapseOnSelect bg="dark" variant="light" expand="lg">
       <Navbar.Brand href="/">REFRESH 2021</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle aria-controls="basic-navbar-nav" variant="light"><FontAwesomeIcon icon={faBars} style={{ color: '#bbb' }} /></Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Item>
-            <Nav.Link>
-              <Link to="/">Home</Link>
-            </Nav.Link>
+
+            <LinkContainer exact to="/">
+              <Nav.Link>Home</Nav.Link>
+            </LinkContainer>
           </Nav.Item>
           {/* <Nav.Item>
             <Nav.Link>
@@ -38,25 +44,29 @@ const Navibar = () => (
             </Nav.Link>
           </Nav.Item> */}
           <Nav.Item>
-            <Nav.Link>
-              <Link to="/submissions">Submissions</Link>
-            </Nav.Link>
+            <LinkContainer to="/submissions">
+              <Nav.Link>Submissions</Nav.Link>
+            </LinkContainer>
           </Nav.Item>
+
           {/* <Nav.Item>
             <Nav.Link>
               <Link to="/dates">Important Dates</Link>
             </Nav.Link>
           </Nav.Item> */}
+
           <Nav.Item>
-            <Nav.Link>
-              <Link to="/committees">Committees</Link>
-            </Nav.Link>
+            <LinkContainer to="/committees">
+              <Nav.Link>Committees</Nav.Link>
+            </LinkContainer>
           </Nav.Item>
+
           <Nav.Item>
-            <Nav.Link>
-              <Link to="/program">Program</Link>
-            </Nav.Link>
+            <LinkContainer to="/program">
+              <Nav.Link>Program</Nav.Link>
+            </LinkContainer>
           </Nav.Item>
+
           {/* <Nav.Item>
             <Nav.Link>
               <Link to="/contact">Contact</Link>

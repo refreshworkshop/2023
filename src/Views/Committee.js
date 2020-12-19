@@ -22,7 +22,6 @@ function Committee() {
 
 <br />
 <b>Publicity Chairs </b> <br />
-<a href="http://ece-research.unm.edu/jimp/">Jim Plusquellic</a> (University of New Mexico, USA) <br />
 <a href="https://people.utwente.nl/s.bayhan?tab=about-me">Suzan Bayhan</a> (University of Twente, Netherlands) <br />
 
 <br />

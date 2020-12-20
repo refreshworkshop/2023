@@ -15,11 +15,18 @@ const Subtitle = styled.h5`
 `;
 const Ul = styled.ul`
   list-style-type: none;
+  
+  li {
+  &:before {
+    content: "~";
+  }
+}
   //list-style-position: inside;
 `;
 const Grid = styled.div`
 * {
   box-sizing: border-box;
+  padding-bottom: 15px;
 }
 .header {
   padding: 10px;
@@ -81,10 +88,11 @@ function Home() {
       <div className="header">
 
       <Title>Coral Bay, Pafos, Cyprus <br/>
-          June  7 – 9, 2021<br/></Title>
-      co-located with <a target="_blank" rel="noopener noreferrer" href="https://dcoss.org/">DCOSS 2020</a><br /><br />
+          Date: TBA<br/></Title>
+      co-located with <a target="_blank" rel="noopener noreferrer" href="https://dcoss.org/">IEEE International Conference on Distributed Computing in Sensor Systems (DCOSS 2020)</a><br /><br />
       <Subtitle> Call for Papers </Subtitle>
-      Few selected papers will be invited for the: <br /> Special Issue <i>“Emerging Trends in Wireless Sensor Networks”</i>, of <a target="_blank" rel="noopener noreferrer" href="https://www.mdpi.com/journal/sensors">Sensors, MDPI.</a>”
+      Few selected papers will be invited for the: <br /> Special Issue <i>“Emerging Trends 
+        in Wireless Sensor Networks”</i>, of <a target="_blank" rel="noopener noreferrer" href="https://www.mdpi.com/journal/sensors">Sensors, MDPI.</a>
       <br />
       <b>Best Paper Award will be announced for the most innovative research paper.</b>
       <br />
@@ -123,6 +131,11 @@ function Home() {
         <li>5G Cellular systems and beyond</li>
         <li>Reconfigurable Intelligent Surfaces</li>
         <li>Integrated Access and Backhaul</li>
+        <li>Channel modeling and measurements</li>
+        <li>Cloud/CRAN-based networks5G/B5G/6G Networks</li>
+        <li>Millimeter-wave and THz communication technologies</li>
+        <li>Massive MIMO</li>
+        <li>Multi-modal sensing/sourcing</li>
         <li>Cognitive radio networks, dynamic spectrum access and emerging applications and services</li>
         <li>Wireless power transfer and energy harvesting for wireless networks</li>
         <li>Delay tolerant networks</li>
@@ -158,10 +171,10 @@ function Home() {
       </div>
       <div className="side">
       <Subtitle>Important Dates </Subtitle>
-            Submission: May 7, 2021<br />
-            Notification: May 30, 2021<br />
-            Camera Ready: June 10, 2021<br />
-            Early Registration: June 10, 2021<br /><br/>
+            Submission: March 22, 2021<br />
+            Notification: April 22, 2021<br />
+            Camera Ready: May 7, 2021<br />
+            Early Registration: TBA<br /><br/>
       </div>
       </Grid>
     </div>

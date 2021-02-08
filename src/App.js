@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Navibar  from './Components/Navibar'
 import Jumbotron from './Components/Jumbotron'
-// import Footer from './Components/Footer'
+import Footer from './Components/Footer'
 import {
   HashRouter as Router,
   Switch,
@@ -21,7 +21,8 @@ import Submissions from './Views/Submissions';
 
 function App() {
   return (
-    <div className="App">
+    <div className="page-container">
+      <div className="content-wrap">
       <Router>
         <Navibar />
         <Jumbotron />
@@ -63,9 +64,10 @@ function App() {
 
           </Switch>
         </div>
-        {/* <Footer /> */}
+        
       </Router>
-      
+      </div>
+      <Footer />
     </div>
   );
 }

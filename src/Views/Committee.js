@@ -2,6 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 
+const Header = styled.div`
+* {
+    text-align: center;
+  } 
+  h1 {
+    color: #2291e6; 
+  }
+`;
+
 const Grid = styled.div`
 * {
 
@@ -10,23 +19,26 @@ const Grid = styled.div`
     // padding-left: 40px;
     // padding-right: 40px;
     padding-bottom: 15px;
-    // text-align: justify;
+    text-align: justify;
 
 }
 a {
     padding: 0 !important;
 }
 .main {
+    float: left;
     width: 100%;
     padding-left: 40px;
     padding-right: 40px;
     text-align: justify;
+    // text-justify: inter-word;
   
   }
 
 @media screen and (min-width: 768px) {
 
     * {
+        
         box-sizing: border-box;
         word-wrap:break-word;
         // padding-left: 120px;
@@ -35,6 +47,7 @@ a {
         // text-align: justify;
     }
     .main {
+        float: left;
         width: 100%;
         padding-left: 120px;
         padding-right: 120px;
@@ -44,17 +57,16 @@ a {
 } 
 `;
 
-
-const Title = styled.h1`
-    color: #2291e6;
-  
-`;
 function Committee() {
     return (
-<div>
-<Title>Commitees</Title><br />
-<Grid><b>Program Committee Chairs </b><br />
-<div className='main'>
+        <div>
+<Header>
+    
+<h1>Commitees</h1><br />
+</Header>
+<Grid>
+<div className="main">
+<b>Program Committee Chairs </b><br />
 <a href="http://ece-research.unm.edu/tsiropoulou/Students.html">Eirini Eleni Tsiropoulou</a> (University of New Mexico, USA) <br />
 <a href="https://www.ece.ntua.gr/en/staff/76">Symeon Papavassiliou </a>(National Technical University of Athens, Greece)<br />
 

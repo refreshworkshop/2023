@@ -4,23 +4,28 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
 *{
+    padding: 0;
     margin-top: 1rem;
-    padding: 0.5rem;
-    // background-color: #2291e6;
-    position: absolute;
+    color: #000;
+    // background-color: #bbb;
     bottom: 0;
     left: 0;
     right: 0;
     width: 100%;
-    font-size: 0.75em;
+    font-size: 0.65em;
+    text-align: center;
+    
   }
 `;
 
 const Footer = () => (
     <div>
         <Styles>
-            <p>REFRESH2021</p>
+            <p>
+                REFRESH2021
+            </p>
         </Styles>
+
     </div>
 );
 

@@ -30,10 +30,11 @@ const Grid = styled.div`
 }
 .header {
   padding: 10px;
-  order: 1;
+  flex: 1;
+  text-align: center;
 }
 .main {
-  order: 3;
+  flex: 3;
   width: 100%;
   padding-left: 40px;
   padding-right: 40px;
@@ -41,7 +42,7 @@ const Grid = styled.div`
 
 }
 .side {
-  order: 2;
+  flex: 2;
   width: 100%;
   padding-left: 80px;
   text-align: left;
@@ -88,8 +89,8 @@ function Home() {
       <div className="header">
 
       <Title>Coral Bay, Pafos, Cyprus <br/>
-          Date: TBA<br/></Title>
-      co-located with <a target="_blank" rel="noopener noreferrer" href="https://dcoss.org/">IEEE International Conference on Distributed Computing in Sensor Systems (DCOSS 2020)</a><br /><br />
+          June  7 – 9, 2021<br/></Title>
+      co-located with <a target="_blank" rel="noopener noreferrer" href="https://dcoss.org/">IEEE International Conference on Distributed Computing in Sensor Systems (DCOSS 2021)</a><br /><br />
       <Subtitle> Call for Papers </Subtitle>
       Few selected papers will be invited for the: <br /> Special Issue <i>“Emerging Trends 
         in Wireless Sensor Networks”</i>, of <a target="_blank" rel="noopener noreferrer" href="https://www.mdpi.com/journal/sensors">Sensors, MDPI.</a>

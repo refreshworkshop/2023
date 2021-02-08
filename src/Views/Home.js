@@ -172,9 +172,9 @@ function Home() {
       </div>
       <div className="side">
       <Subtitle>Important Dates </Subtitle>
-            Submission: March 22, 2021<br />
-            Notification: April 22, 2021<br />
-            Camera Ready: May 7, 2021<br />
+            Submission: April 30, 2021<br />
+            Notification: May 22, 2021<br />
+            Camera Ready: May 31, 2021<br />
             Early Registration: TBA<br /><br/>
       </div>
       </Grid>

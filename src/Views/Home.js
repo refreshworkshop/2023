@@ -89,7 +89,7 @@ function Home() {
       <div className="header">
 
       <Title>Coral Bay, Pafos, Cyprus <br/>
-          June  7 – 9, 2021<br/></Title>
+          July  14 – 16, 2021<br/></Title>
       co-located with <a target="_blank" rel="noopener noreferrer" href="https://dcoss.org/">IEEE International Conference on Distributed Computing in Sensor Systems (DCOSS 2021)</a><br /><br />
       <Subtitle> Call for Papers </Subtitle>
       Few selected papers will be invited for the: <br /> Special Issue <i>“Emerging Trends 
@@ -172,10 +172,10 @@ function Home() {
       </div>
       <div className="side">
       <Subtitle>Important Dates </Subtitle>
-            Submission: April 30, 2021<br />
-            Notification: May 22, 2021<br />
-            Camera Ready: May 31, 2021<br />
-            Early Registration: TBA<br /><br/>
+            Submission: May 21, 2021<br />
+            Notification: June 11, 2021<br />
+            Camera Ready: June 18, 2021<br />
+            Early Registration: July 5, 2021<br /><br/>
       </div>
       </Grid>
     </div>
@@ -183,4 +183,9 @@ function Home() {
 }
 
 export default Home;
+
+
+
+
+
 

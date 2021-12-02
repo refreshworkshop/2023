@@ -61,7 +61,7 @@ function Program() {
     </Header>
     <Grid>
 <div className="main">
-    (TBA)
+    <b>(TBA)</b>
 </div>
 </Grid>
     </div>

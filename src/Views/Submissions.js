@@ -92,14 +92,15 @@ Note that REFRESH does not follow the double-blind review policy. The names and 
 the authors must be present in the submitted manuscript.
 <br />
                     <br />
-Accepted and presented papers will be published in the DCOSS 2021 conference proceedings and submitted
+Accepted and presented papers will be published in the DCOSS 2022 conference proceedings and submitted
 to IEEE Xplore as well as other Abstracting and Indexing (A&amp;I) databases.
 <br />
                     <br />
                     <b>Submission Site </b> <br />
 Please submit your papers in PDF format using the following paper submission
-website: <a target="_blank" rel="noopener noreferrer" href="https://easychair.org/conferences/?conf=refresh2021">
-                        https://easychair.org/conferences/?conf=refresh2021</a>
+website: TBA
+{/* <a target="_blank" rel="noopener noreferrer" href="https://easychair.org/conferences/?conf=refresh2022">
+                        https://easychair.org/conferences/?conf=refresh2022</a> */}
                     <br />
                     <br />
                     <b>Camera Ready Guidelines </b> <br />

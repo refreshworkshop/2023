@@ -88,15 +88,15 @@ function Home() {
       <br /> */}
       <div className="header">
 
-      <Title>Coral Bay, Pafos, Cyprus <br/>
-          July  14 – 16, 2021<br/></Title>
-      co-located with <a target="_blank" rel="noopener noreferrer" href="https://dcoss.org/">IEEE International Conference on Distributed Computing in Sensor Systems (DCOSS 2021)</a><br /><br />
-      <Subtitle> Call for Papers </Subtitle>
+      <Title> Marina Del Rey, LA, California <br/>
+          May 30 to June 1, 2022<br/></Title>
+      co-located with <a target="_blank" rel="noopener noreferrer" href="https://dcoss.org/">IEEE International Conference on Distributed Computing in Sensor Systems (DCOSS 2022)</a><br /><br />
+      {/* <Subtitle> Call for Papers </Subtitle>
       Few selected papers will be invited for the: <br /> Special Issue <i>“Emerging Trends 
         in Wireless Sensor Networks”</i>, of <a target="_blank" rel="noopener noreferrer" href="https://www.mdpi.com/journal/sensors">Sensors, MDPI.</a>
       <br />
       <b>Best Paper Award will be announced for the most innovative research paper.</b>
-      <br />
+      <br /> */}
       </div>
       
       <div className="main">
@@ -172,10 +172,11 @@ function Home() {
       </div>
       <div className="side">
       <Subtitle>Important Dates </Subtitle>
-            Submission: May 21, 2021<br />
-            Notification: June 11, 2021<br />
-            Camera Ready: June 18, 2021<br />
-            Early Registration: July 5, 2021<br /><br/>
+            Paper Submission: March 15, 2022<br />
+            Notification: TBA<br />
+            Camera Ready: TBA<br />
+            Early Registration: TBA<br />
+            Workshop Day: TBA<br/>
       </div>
       </Grid>
     </div>
@@ -183,9 +184,3 @@ function Home() {
 }
 
 export default Home;
-
-
-
-
-
-

@@ -23,7 +23,7 @@ const Styles = styled.div`
 const Navibar = () => (
   <Styles>
     <Navbar collapseOnSelect bg="dark" variant="light" expand="lg">
-      <Navbar.Brand href="/">REFRESH 2021</Navbar.Brand>
+      <Navbar.Brand href="/">REFRESH 2022</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" variant="light"><FontAwesomeIcon icon={faBars} style={{ color: '#bbb' }} /></Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">

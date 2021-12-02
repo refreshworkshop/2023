@@ -45,8 +45,8 @@ const Jumbotron = () => (
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container>
-        <Title> REFRESH 2021 </Title>
-        <Subtitle>2nd International Workshop on Real-life modeling in 5G networks and beyond </Subtitle> 
+        <Title> REFRESH 2022 </Title>
+        <Subtitle>3rd International Workshop on Real-life modeling in 5G networks and beyond </Subtitle> 
       </Container>
     </Jumbo>
   </Styles>

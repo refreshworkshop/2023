@@ -22,7 +22,7 @@ const Footer = () => (
     <div>
         <Styles>
             <p>
-                REFRESH2021
+                REFRESH2022
             </p>
         </Styles>
 

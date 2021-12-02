@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
 import styled from 'styled-components';
-import boatImage from '../Assets/paphos.jpg';
+import boatImage from '../Assets/marina.jpg';
 
 const Title = styled.h1`
 font-size: 5em;

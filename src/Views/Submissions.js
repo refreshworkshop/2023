@@ -77,7 +77,7 @@ function Submissions() {
 
                 
 Authors are invited to submit original unpublished manuscripts that demonstrate current research on
-real-life modeling in 5G networks and beyond related to REFRESH workshop’s topics of interest. Please use
+real-life modeling in 5G/6G networks and beyond related to REFRESH workshop’s topics of interest. Please use
 the US letter size (8.5 X 11 in) standard IEEE conference LaTeX format or Microsoft Word template available on the link
 below: <a target="_blank" rel="noopener noreferrer"
                         href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html">

@@ -138,37 +138,38 @@ function Home() {
         <li>Millimeter-wave and THz communication technologies</li>
         <li>Massive MIMO</li>
         <li>Multi-modal sensing/sourcing</li>
-        <li>Cognitive radio networks, dynamic spectrum access and emerging applications and services</li>
+        <li>Cognitive radio networks, dynamic spectrum access, and emerging applications and services</li>
         <li>Wireless power transfer and energy harvesting for wireless networks</li>
         <li>Delay tolerant networks</li>
         <li>Wireless communications on different media</li>
-        <li>End-to-end protocols, flow and congestion control</li>
+        <li>End-to-end protocols, flow, and congestion control</li>
         <li>Artificial intelligence and machine learning for wireless networks</li>
-        <li>Attack modelling, prevention, mitigation, and defense in wireless networks</li>
-        <li>Security, Reliability, Privacy and Trust in Wireless Networks</li>
+        <li>Attack modeling, prevention, mitigation, and defense in wireless networks</li>
+        <li>Security, Reliability, Privacy, and Trust in Wireless Networks</li>
         <li>Green Wireless Networks</li>
-        <li>Heterogeneous, Small-Cell and Dense networks</li>
+        <li>Heterogeneous, Small-Cell, and Dense networks</li>
         <li>Information-centric wireless networks</li>
         <li>Internet of Things</li>
         <li>Pervasive and wearable computing and networking</li>
         <li>Public Safety Networks</li>
         <li>Social wireless networks</li>
-        <li>Quality of Service provisioning and management in 5G networks and beyong</li>
+        <li>Quality of Service provisioning and management in 5G networks and beyond</li>
         <li>Quality of Experience and User Experience in 5G networks and beyond</li>
-        <li>Software-defined wireless neworks</li>
+        <li>Software-defined wireless networks</li>
         <li>Vehicular wireless networks</li>
         <li>Wireless mesh networks</li>
         <li>Wireless multimedia networks</li>
         <li>Wireless network virtualization</li>
-        <li>Multiple Access, Radio Resource Management, Interference Management and Scheduling</li>
+        <li>Multiple Access, Radio Resource Management, Interference Management, and Scheduling</li>
         <li>Unmanned Aerial Vehicle (UAV) Networks</li>
-        <li>Hybrid communication systems (e.g., satellite/unmaneed aerial vehicles/terrestrial/wireline hybrids)</li>
+        <li>Hybrid communication systems (e.g., satellite/unmanned aerial vehicles/terrestrial/wireline hybrids)</li>
         <li>Machine learning-based resource allocation for wireless networks</li>
         <li>Reinforcement learning and deep learning for 5G/6G networks and beyond</li>
         <li>Architectures, models, security, and approaches for smart grid networks</li>
         <li>Economics and pricing for 5G/6G networks and beyond</li>
         <li>Smart Cities supported by 5G/6G networks and beyond</li>
-        <li>Scalability, Robustness and Resilience in 5G/6G networks and beyond</li>
+        <li>Scalability, Robustness, and Resilience in 5G/6G networks and beyond</li>
+        <li>Integrated Sensing, Communications and Computing</li>
       </Ul>
       </div>
       <div className="side">
